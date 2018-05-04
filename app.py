@@ -32,6 +32,3 @@ def projects():
 @app.route("/contact/")
 def contact():
 	return "Contact"
-
-if __name__ == "__main__":
-	app.run()
